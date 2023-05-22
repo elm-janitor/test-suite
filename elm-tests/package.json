@@ -1,0 +1,11 @@
+{
+  "name": "elm-tests",
+  "description": "Tests where no fake or actual browser environment is needed",
+  "scripts": {
+    "test": "elm-test-rs tests"
+  },
+  "private": true,
+  "devDependencies": {
+    "elm-tooling": "^1.14.0"
+  }
+}
