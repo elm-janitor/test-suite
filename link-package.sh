@@ -23,3 +23,6 @@ rm -rf ${TO}
 # add link
 ln -s  ${FROM} ${TO}
 echo "Linked $FROM to $TO"
+
+# remove cache directory
+rm -rf ./elm-tests/elm-stuff
