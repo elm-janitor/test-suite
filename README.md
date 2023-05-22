@@ -70,3 +70,16 @@ with
 ```sh
 ./clean-git-submodules.sh
 ```
+
+## Verified fixes
+
+This repository can verify that the following issues are solved by
+[elm-janitor](https://github.com/elm-janitor) patches.
+
+- From https://github.com/elm-janitor/parser/tree/stack-1.1.0 (commit
+  [a61f4ae](https://github.com/elm-janitor/parser/commit/a61f4ae6d789f7dd6de51a1bd67c459bce9a7a0c))
+  - Fixes https://github.com/elm/parser/issues/2
+  - Fixes https://github.com/elm/parser/issues/9
+  - Fixes https://github.com/elm/parser/issues/20
+  - Fixes https://github.com/elm/parser/issues/46
+  - Fixes https://github.com/elm/parser/issues/53
