@@ -12,6 +12,10 @@ fi
 
 ELM_CACHE_DIR=`pwd`/elm-home/0.19.1/packages/elm
 DIR=$ELM_CACHE_DIR/$PKG
+
+# remove the artifacts separately because $DIR might just be a link
+rm -rf "$DIR/artifacts.dat"
+
 rm -rf "$DIR"
 echo "Removed $DIR"
 

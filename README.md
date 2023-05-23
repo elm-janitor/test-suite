@@ -57,3 +57,9 @@ If you only want to update the link from `./package/<package>` to `./elm-home/0.
 ```sh
 ./link-package.sh core 1.0.5
 ```
+
+After running tests, the git submodules might be marked as dirty. This can be usually fixed by removing files that the Elm compiler generates on every run with
+
+```sh
+./clean-git-submodules.sh
+```

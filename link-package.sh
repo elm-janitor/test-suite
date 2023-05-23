@@ -24,5 +24,8 @@ rm -rf ${TO}
 ln -s  ${FROM} ${TO}
 echo "Linked $FROM to $TO"
 
+# remove (potentially outdated) build artifacts
+rm -rf "$FROM/artifacts.dat"
+
 # remove cache directory
 rm -rf ./elm-tests/elm-stuff
