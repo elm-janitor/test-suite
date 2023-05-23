@@ -1,3 +1,7 @@
+[submodule "packages/core"]
+	path = packages/core
+	url = git@github.com:elm-janitor/core.git
+	branch = stack-1.0.5
 [submodule "packages/parser"]
 	path = packages/parser
 	url = git@github.com:elm-janitor/parser.git
