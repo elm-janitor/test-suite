@@ -13,7 +13,9 @@ if [ -z "$PKG" ] || [ -z "$PR" ]; then
 fi
 
 MODULE_NAME="${PKG^}"
-FILE=tests/$MODULE_NAME/PR$PR.elm
+FILE="tests/$MODULE_NAME/PR$PR.elm"
+
+mkdir -p "tests/$MODULE_NAME/"
 
 cat > $FILE <<EOF
 module $MODULE_NAME.PR$PR exposing (suite)
