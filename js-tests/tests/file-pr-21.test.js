@@ -1,5 +1,5 @@
 const fs = require('node:fs/promises');
-const { compile } = require('./src/compile_elm.js');
+const { compile } = require('../src/compile_elm.js');
 
 /**
  * Test changes of <https://github.com/elm/file/pull/21>
@@ -43,7 +43,7 @@ afterEach(() => {
  * It only tests that `setTimeout` is used.
  * Description of the fix using `setTimeout`: https://developer.apple.com/forums/thread/115102
  */
-test('Throw an exception when a non-function callback is passed to elm.ports[port].subscribe', async () => {
+test('ensure `setTimeout` is used before the ObjectURL is revoked', async () => {
     const fakeObjectUrl = 'fake-obj-url'
     const origCreateObjectURL = window.URL.createObjectURL;
     const origRevokeObjectURL = window.URL.revokeObjectURL;
