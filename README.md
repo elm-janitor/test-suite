@@ -86,3 +86,4 @@ This repository can verify that the following issues are solved by
 - From https://github.com/elm-janitor/core/tree/stack-1.0.5 (commit
   [0d928a1](https://github.com/elm-janitor/core/commit/0d928a177fc492e32a2f9bd92f5bcf9f5ca2f68c)
   - Fixes https://github.com/elm/core/issues/942
+  - Fixes https://github.com/elm/bytes/issues/15
