@@ -1,3 +1,7 @@
+[submodule "packages/browser"]
+	path = packages/browser
+	url = git@github.com:elm-janitor/browser.git
+	branch = stack-1.0.2
 [submodule "packages/bytes"]
 	path = packages/bytes
 	url = git@github.com:elm-janitor/bytes.git

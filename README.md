@@ -77,6 +77,9 @@ with
 This repository can verify that the following issues are solved by
 [elm-janitor](https://github.com/elm-janitor) patches.
 
+- From https://github.com/elm-janitor/browser/tree/stack-1.0.2 (commit
+  [53e3caa](https://github.com/elm-janitor/browser/commit/53e3caa265fd9da3ec9880d47bb95eed6fe24ee6))
+  - No fixes
 - From https://github.com/elm-janitor/bytes/tree/stack-1.0.8 (commit
   [2bce2ae](https://github.com/elm-janitor/bytes/commit/2bce2aeda4ef18c3dcccd84084647d22a7af36a6))
   - No fixes
