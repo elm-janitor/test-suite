@@ -77,6 +77,16 @@ with
 This repository can verify that the following issues are solved by
 [elm-janitor](https://github.com/elm-janitor) patches.
 
+- From https://github.com/elm-janitor/bytes/tree/stack-1.0.8 (commit
+  [2bce2ae](https://github.com/elm-janitor/bytes/commit/2bce2aeda4ef18c3dcccd84084647d22a7af36a6))
+  - No fixes
+- From https://github.com/elm-janitor/core/tree/stack-1.0.5 (commit
+  [0d928a1](https://github.com/elm-janitor/core/commit/0d928a177fc492e32a2f9bd92f5bcf9f5ca2f68c))
+  - Fixes https://github.com/elm/core/issues/942
+  - Fixes https://github.com/elm/bytes/issues/15
+  - Fixes https://github.com/elm/core/pull/952
+- From https://github.com/elm-janitor/file/tree/stack-1.0.5 (commit
+  [7c7db2c](https://github.com/elm-janitor/file/commit/7c7db2c7d60edc79791852e72f01ca227f58f9ea))
 - From https://github.com/elm-janitor/parser/tree/stack-1.1.0 (commit
   [a61f4ae](https://github.com/elm-janitor/parser/commit/a61f4ae6d789f7dd6de51a1bd67c459bce9a7a0c))
   - Fixes https://github.com/elm/parser/issues/2
@@ -84,13 +94,3 @@ This repository can verify that the following issues are solved by
   - Fixes https://github.com/elm/parser/issues/20
   - Fixes https://github.com/elm/parser/issues/46
   - Fixes https://github.com/elm/parser/issues/53
-- From https://github.com/elm-janitor/bytes/tree/stack-1.0.8 (commit
-  [2bce2ae](https://github.com/elm-janitor/bytes/commit/2bce2aeda4ef18c3dcccd84084647d22a7af36a6))
-  - No fixes
-- From https://github.com/elm-janitor/file/tree/stack-1.0.5 (commit
-  [7c7db2c](https://github.com/elm-janitor/file/commit/7c7db2c7d60edc79791852e72f01ca227f58f9ea))
-- From https://github.com/elm-janitor/core/tree/stack-1.0.5 (commit
-  [0d928a1](https://github.com/elm-janitor/core/commit/0d928a177fc492e32a2f9bd92f5bcf9f5ca2f68c)
-  - Fixes https://github.com/elm/core/issues/942
-  - Fixes https://github.com/elm/bytes/issues/15
-  - Fixes https://github.com/elm/core/pull/952
