@@ -1,3 +1,7 @@
+[submodule "packages/bytes"]
+	path = packages/bytes
+	url = git@github.com:elm-janitor/bytes.git
+	branch = stack-1.0.8
 [submodule "packages/core"]
 	path = packages/core
 	url = git@github.com:elm-janitor/core.git
