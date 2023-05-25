@@ -8,7 +8,6 @@ const { compile } = require('./src/compile_elm.js');
 let simpleWorkerJsFile;
 
 beforeAll(async () => {
-    await fs.rm('./elm-stuff', { force: true, recursive: true });
     simpleWorkerJsFile = await compile('SimpleWorker');
 });
 
