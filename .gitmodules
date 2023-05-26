@@ -30,3 +30,7 @@
 	path = packages/project-metadata-utils
 	url = git@github.com:elm-janitor/project-metadata-utils.git
 	branch = stack-1.0.2
+[submodule "packages/random"]
+	path = packages/random
+	url = git@github.com:elm-janitor/random.git
+	branch = stack-1.0.0
