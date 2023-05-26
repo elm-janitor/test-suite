@@ -106,3 +106,7 @@ This repository can verify that the following issues are solved by
   - Fixes https://github.com/elm/parser/issues/20
   - Fixes https://github.com/elm/parser/issues/46
   - Fixes https://github.com/elm/parser/issues/53
+- From https://github.com/elm-janitor/project-metadata-utils/tree/stack-1.0.2
+  (commit
+  [5fb7e5a](https://github.com/elm-janitor/project-metadata-utils/commit/5fb7e5a54ece08edb3a31f26ed91c9dd43ad5664))
+  - TODO https://github.com/elm/project-metadata-utils/pull/19

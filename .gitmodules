@@ -26,3 +26,7 @@
 	path = packages/parser
 	url = git@github.com:elm-janitor/parser.git
 	branch = stack-1.1.0
+[submodule "packages/project-metadata-utils"]
+	path = packages/project-metadata-utils
+	url = git@github.com:elm-janitor/project-metadata-utils.git
+	branch = stack-1.0.2
