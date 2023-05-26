@@ -34,3 +34,7 @@
 	path = packages/random
 	url = git@github.com:elm-janitor/random.git
 	branch = stack-1.0.0
+[submodule "packages/time"]
+	path = packages/time
+	url = git@github.com:elm-janitor/time.git
+	branch = stack-1.0.0
