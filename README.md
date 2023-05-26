@@ -116,3 +116,6 @@ This repository can verify that the following issues are solved by
 - From https://github.com/elm-janitor/time/tree/stack-1.0.0 (commit
   [7b97ef5](https://github.com/elm-janitor/time/commit/7b97ef513b289d7b88704fcfc5a0807f7eb4f5ce))
   - No fixes
+- From https://github.com/elm-janitor/virtual-dom/tree/stack-1.0.3 (commit
+  [962f555](https://github.com/elm-janitor/virtual-dom/commit/962f55501704292d8b2b66695fc1f587b5185ef7))
+  - No fixes

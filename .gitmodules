@@ -38,3 +38,7 @@
 	path = packages/time
 	url = git@github.com:elm-janitor/time.git
 	branch = stack-1.0.0
+[submodule "packages/virtual-dom"]
+	path = packages/virtual-dom
+	url = git@github.com:elm-janitor/virtual-dom.git
+	branch = stack-1.0.3
