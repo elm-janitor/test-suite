@@ -91,6 +91,8 @@ This repository can verify that the following issues are solved by
 - From https://github.com/elm-janitor/file/tree/stack-1.0.5 (commit
   [7c7db2c](https://github.com/elm-janitor/file/commit/7c7db2c7d60edc79791852e72f01ca227f58f9ea))
   - Fixes https://github.com/elm/file/issues/17 (bug in iOS <= 13)
+- From https://github.com/elm-janitor/http/tree/stack-2.0.0 (commit
+  [e065c97](https://github.com/elm-janitor/http/commit/e065c97fbbe402ac7acc249edb4061f68bd220c0))
 - From https://github.com/elm-janitor/parser/tree/stack-1.1.0 (commit
   [a61f4ae](https://github.com/elm-janitor/parser/commit/a61f4ae6d789f7dd6de51a1bd67c459bce9a7a0c))
   - Fixes https://github.com/elm/parser/issues/2

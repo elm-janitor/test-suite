@@ -14,6 +14,10 @@
 	path = packages/file
 	url = git@github.com:elm-janitor/file.git
 	branch = stack-1.0.5
+[submodule "packages/http"]
+	path = packages/http
+	url = git@github.com:elm-janitor/http.git
+	branch = stack-2.0.0
 [submodule "packages/parser"]
 	path = packages/parser
 	url = git@github.com:elm-janitor/parser.git
