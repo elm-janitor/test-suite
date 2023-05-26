@@ -18,6 +18,10 @@
 	path = packages/http
 	url = git@github.com:elm-janitor/http.git
 	branch = stack-2.0.0
+[submodule "packages/json"]
+	path = packages/json
+	url = git@github.com:elm-janitor/json.git
+	branch = stack-1.1.3
 [submodule "packages/parser"]
 	path = packages/parser
 	url = git@github.com:elm-janitor/parser.git

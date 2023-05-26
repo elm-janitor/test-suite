@@ -94,6 +94,11 @@ This repository can verify that the following issues are solved by
 - From https://github.com/elm-janitor/http/tree/stack-2.0.0 (commit
   [e065c97](https://github.com/elm-janitor/http/commit/e065c97fbbe402ac7acc249edb4061f68bd220c0))
   - Fixes https://github.com/elm/http/pull/66
+- From https://github.com/elm-janitor/json/tree/stack-1.1.3 (commit
+  [24a7c9a](https://github.com/elm-janitor/json/commit/24a7c9a234350366a5672e46dd135a09e0336e28))
+  - TODO https://github.com/elm/json/pull/9
+  - TODO https://github.com/elm/json/pull/22
+  - TODO https://github.com/elm/json/pull/32
 - From https://github.com/elm-janitor/parser/tree/stack-1.1.0 (commit
   [a61f4ae](https://github.com/elm-janitor/parser/commit/a61f4ae6d789f7dd6de51a1bd67c459bce9a7a0c))
   - Fixes https://github.com/elm/parser/issues/2
