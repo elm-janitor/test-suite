@@ -96,7 +96,9 @@ This repository can verify that the following issues are solved by
   [24a7c9a](https://github.com/elm-janitor/json/commit/24a7c9a234350366a5672e46dd135a09e0336e28))
   - TODO https://github.com/elm/json/pull/9
   - TODO https://github.com/elm/json/pull/22
-  - TODO https://github.com/elm/json/pull/32
+  - Fixes https://github.com/elm/core/issues/904
+  - Fixes https://github.com/elm/json/issues/13
+  - Fixes https://github.com/elm/json/issues/15
 - From https://github.com/elm-janitor/parser/tree/stack-1.1.0 (commit
   [a61f4ae](https://github.com/elm-janitor/parser/commit/a61f4ae6d789f7dd6de51a1bd67c459bce9a7a0c))
   - Fixes https://github.com/elm/parser/issues/2
