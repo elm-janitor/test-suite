@@ -42,11 +42,9 @@ After that, you can proceed to run the test suites.
 1. Tests that only need an Elm test runner,
    see[`./elm-tests/`](./elm-tests/README.md)
 2. Tests that need a fake browser environment, see
-   [`./js-tests'](./js-tests/README.md)
-3. Tests that need an actual browser, TODO use
-   [playwright](https://playwright.dev/). Before reaching for it, first try with
-   [JSDOM](https://github.com/jsdom/jsdom) or
-   [HappyDOM](https://github.com/capricorn86/happy-dom)
+   [`./js-tests`](./js-tests/README.md)
+3. Tests that need an actual browser, see
+   [`./browser-tests`](./browser-tests/README.md)
 
 ## Scripts
 
