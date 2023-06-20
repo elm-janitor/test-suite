@@ -11,7 +11,9 @@
             "elm/core": "1.0.5",
             "elm/html": "1.0.0",
             "elm/parser": "1.1.0",
-            "elm/random": "1.0.0"
+            "elm/project-metadata-utils": "1.0.2",
+            "elm/random": "1.0.0",
+            "elm-community/result-extra": "2.4.0"
         },
         "indirect": {
             "elm/json": "1.1.3",

@@ -109,7 +109,7 @@ This repository can verify that the following issues are solved by
 - From https://github.com/elm-janitor/project-metadata-utils/tree/stack-1.0.2
   (commit
   [5fb7e5a](https://github.com/elm-janitor/project-metadata-utils/commit/5fb7e5a54ece08edb3a31f26ed91c9dd43ad5664))
-  - TODO https://github.com/elm/project-metadata-utils/pull/19
+  - Fixes https://github.com/elm/project-metadata-utils/pull/19
 - From https://github.com/elm-janitor/random/tree/stack-1.0.0 (commit
   [1cf1144](https://github.com/elm-janitor/random/commit/1cf11440beccc83184879eea9b233758355a6ef2))
   - Fixes https://github.com/elm/random/issues/21
