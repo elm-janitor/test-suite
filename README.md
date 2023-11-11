@@ -91,6 +91,35 @@ executing
 ./add-upstream-git-remotes.sh
 ```
 
+## Usage and development hints
+
+### Switching between multiple versions fast
+
+If you want to toggle between versions of a package, you can do the following:
+
+```sh
+# Remove `elm/core` from ./elm-home and let the Elm compiler install the latest version
+./remove-cached-package.sh http
+# Verify that the tests for elm/http fail using the upstream version
+npx jest tests/http-*
+# And then use the latest state of the submodule packages/http as elm/http v2.0.0
+./link-package.sh http 2.0.0
+```
+
+### Compiler errors inside the js kernel code
+
+If you make changes to the core packages and use them inside another project
+(or in these tests), you won't see nice error messages, but instead get a very
+generic `PROBLEM BUILDING DEPENDENCIES` error.
+
+Then it can be helpful to run the Elm compiler on the changed Elm source file,
+e.g. `cd packages/core && elm make --output=/dev/null src/Char.elm` (see for
+instance
+[in this issue](https://github.com/elm-janitor/apply-patches/issues/1#issuecomment-1557515507)).
+
+If you change the js kernel code, you are completely on your own and will have
+to step through the generated js code to find issues.
+
 ## Verified fixes
 
 This repository can verify that the following issues are solved by
