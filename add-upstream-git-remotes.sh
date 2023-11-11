@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Add git remote `upstream` where needed"
+echo "Add git remote \`upstream\` where needed"
 
 cd packages/
 

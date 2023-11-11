@@ -6,7 +6,7 @@ if [ -z "$PKG" ];
     then echo "Error: You need to pass a package name"
     echo ""
     echo "Usage:"
-    echo "./`basename $0` <package name> <version number>"
+    echo "./`basename $0` <package name>"
     exit 1
 fi
 
