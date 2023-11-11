@@ -8,7 +8,7 @@ verified using [elm-test-rs](https://github.com/mpizenberg/elm-test-rs) or
 
 ```sh
 npm install
-npx elm-tooling-cli install
+npx elm-tooling install
 ```
 
 ## Run tests
@@ -16,5 +16,5 @@ npx elm-tooling-cli install
 Run the test suite with
 
 ```sh
-npx elm-test-rs tests
+npx elm-test-rs
 ```

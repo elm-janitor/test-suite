@@ -7,7 +7,7 @@ They use [playwright]()
 
 ```sh
 npm install
-npx elm-tooling-cli install
+npx elm-tooling install
 ```
 
 ## Run tests
