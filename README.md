@@ -2,8 +2,13 @@
 
 This repository is useful to develop and verify fixes to core Elm packages.
 
+Every forked core package from elm-janitor is a git submodule, so best clone
+this repository with `--recurse-submodules`.
+
 Usually, you would [apply all patches](#download-and-apply-patches) and then
 [run the test suites](#test-suites).
+
+After that, you can either verify new patches, or work on your own changes.
 
 ## Download and apply patches
 
@@ -18,12 +23,20 @@ ELM_HOME=`pwd`/elm-home
 set ELM_HOME=%cd%\elm-home
 ```
 
+I use [direnv](https://direnv.net/) and have a `.envrc` file with the following content:
+
+```sh
+export ELM_HOME=$HOME/code/elm/janitor/verify-patches/elm-home
+```
+
 Then you can either
 
 **1) Use the git submodules**\
-by clone all of them to your disk and then run `./link-all-packages.sh`
+and run `./link-all-packages.sh`.\
+Note: If you cloned this repository without checking out the submodules, you
+can do that by running `git submodule update --init --recursive`
 
-**2) Use the**
+**2) Or use the**
 [elm-janitor/apply-patches script](https://github.com/elm-janitor/apply-patches)\
 to apply all the patches
 
@@ -68,6 +81,14 @@ with
 
 ```sh
 ./clean-git-submodules.sh
+```
+
+If you want to test or create pull requests for the Elm core packages, you can
+add the original repositories as remote `upstream` to every git submodule by
+executing
+
+```sh
+./add-upstream-git-remotes.sh
 ```
 
 ## Verified fixes
