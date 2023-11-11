@@ -20,3 +20,4 @@ rm -rf "$DIR"
 echo "Removed $DIR"
 
 rm -rf ./elm-tests/elm-stuff
+rm -rf ./js-tests/elm-stuff

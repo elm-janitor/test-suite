@@ -29,3 +29,4 @@ rm -rf "$FROM/artifacts.dat"
 
 # remove cache directory
 rm -rf ./elm-tests/elm-stuff
+rm -rf ./js-tests/elm-stuff
