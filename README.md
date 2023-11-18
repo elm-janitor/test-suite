@@ -177,10 +177,11 @@ This repository can verify that the following issues are solved by
   [2bce2ae](https://github.com/elm-janitor/bytes/commit/2bce2aeda4ef18c3dcccd84084647d22a7af36a6))
   - No fixes
 - From https://github.com/elm-janitor/core/tree/stack-1.0.5 (commit
-  [0d928a1](https://github.com/elm-janitor/core/commit/0d928a177fc492e32a2f9bd92f5bcf9f5ca2f68c))
+  [3729650](https://github.com/elm-janitor/core/commit/37296504de97d401f2ef2882cc109547a044206a))
   - Fixes https://github.com/elm/core/issues/942
   - Fixes https://github.com/elm/bytes/issues/15
   - Fixes https://github.com/elm/core/pull/952
+  - Fixes https://github.com/elm/core/pull/1137
 - From https://github.com/elm-janitor/file/tree/stack-1.0.5 (commit
   [7c7db2c](https://github.com/elm-janitor/file/commit/7c7db2c7d60edc79791852e72f01ca227f58f9ea))
   - Fixes https://github.com/elm/file/issues/17 (bug in iOS <= 13)
