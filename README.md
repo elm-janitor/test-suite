@@ -92,18 +92,44 @@ executing
 
 ## Usage and development hints
 
+If you want to propose new fixes to be included into the elm-janitor packages, have a look at [this document](https://github.com/elm-janitor/manifesto/blob/master/git-help.md) on how to create branches from pull requests and how to add them to the stack of changes.
+
+### Default branch of submodules
+
+Inside `./.gitmodules`, the current "default" stack-x.y.z branch is selected.  
+If a new upstream version should be patched and used as default, we need to update the branch name there.
+
 ### Switching between multiple versions fast
 
 If you want to toggle between versions of a package, you can do the following:
 
 ```sh
-# Remove `elm/core` from ./elm-home and let the Elm compiler install the latest version
+# Remove `elm/http` from ./elm-home and let the Elm compiler install the upstream version during the next build
 ./remove-cached-package.sh http
 # Verify that the tests for elm/http fail using the upstream version
 npx jest tests/http-*
 # And then use the latest state of the submodule packages/http as elm/http v2.0.0
 ./link-package.sh http 2.0.0
+# After that, the tests should no longer fail
+npx jest tests/http-*
 ```
+
+### Updating to the latest published `stack-x.y.z` branch
+
+To check out the latest published commit of every janitor package, you can execute this:
+
+```sh
+git submodule update --remote
+```
+
+If you want to look at the changes first, run
+
+```sh
+git submodule summary
+```
+
+Note: For both commands, you can speed them up by reducing the scope and appending the submodule path, e.g. `packages/core`.
+
 
 ### Compiler errors inside the js kernel code
 
