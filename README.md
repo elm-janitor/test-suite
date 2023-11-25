@@ -58,6 +58,26 @@ After that, you can proceed to run the test suites.
 3. Tests that need an actual browser, see
    [`./browser-tests/README.md`](./browser-tests/README.md)
 
+### Regression tests
+Applying the changes of elm-janitor should not introduce regressions.\
+Not all core packages have tests, for those we could create a suite, see #1.
+
+But we can run these tests
+
+```sh
+cd packages/core/tests
+npx elm-test@0.19.1-revision4 tests
+```
+
+After including https://github.com/elm/json/pull/20 we can also execute the 
+
+```sh
+cd packages/json/tests
+npx elm-test@0.19.1-revision4 tests
+```
+
+Note: If you used the [elm-janitor/apply-patches][apply-patches] script, those packages/*/tests directories won't exist.
+
 ## Scripts
 
 To add a new package as a git submodule into `./package/` and link it into the
