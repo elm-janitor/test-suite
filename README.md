@@ -69,7 +69,7 @@ cd packages/core/tests
 npx elm-test@0.19.1-revision4 tests
 ```
 
-After including https://github.com/elm/json/pull/20 we can also execute the 
+After including https://github.com/elm-janitor/json/pull/1 we can also execute the tests of the json package.
 
 ```sh
 cd packages/json/tests
