@@ -30,12 +30,13 @@ If you use [direnv](https://direnv.net/), you can run `direnv allow` to set it t
 Then you can either
 
 **1) Use the git submodules**\
-and run `./link-all-packages.sh`.\
+and run `./link-all-packages.sh`.
+
 Note: If you cloned this repository without checking out the submodules, you
 can do that by running `git submodule update --init --recursive`
 
 **2) Or use the**
-[elm-janitor/apply-patches script](https://github.com/elm-janitor/apply-patches)\
+[elm-janitor/apply-patches script][apply-patches]\
 to apply all the patches
 
 ```sh
@@ -50,12 +51,12 @@ After that, you can proceed to run the test suites.
 
 ## Test suites
 
-1. Tests that only need an Elm test runner,
-   see[`./elm-tests/`](./elm-tests/README.md)
+1. Tests that only need an Elm test runner, see
+   [`./elm-tests/README.md`](./elm-tests/README.md)
 2. Tests that need a fake browser environment, see
-   [`./js-tests`](./js-tests/README.md)
+   [`./js-tests/README.md`](./js-tests/README.md)
 3. Tests that need an actual browser, see
-   [`./browser-tests`](./browser-tests/README.md)
+   [`./browser-tests/README.md`](./browser-tests/README.md)
 
 ## Scripts
 
@@ -168,3 +169,5 @@ This repository can verify that the following issues are solved by
 - From https://github.com/elm-janitor/virtual-dom/tree/stack-1.0.3 (commit
   [962f555](https://github.com/elm-janitor/virtual-dom/commit/962f55501704292d8b2b66695fc1f587b5185ef7))
   - No fixes
+
+[apply-patches]: https://github.com/elm-janitor/apply-patches

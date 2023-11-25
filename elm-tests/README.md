@@ -18,3 +18,11 @@ Run the test suite with
 ```sh
 npx elm-test-rs
 ```
+
+## Adding tests
+
+To generate a test file for an issue or pull request, you can run 
+
+```sh
+./add-pr.sh <pkg> <number>
+```
