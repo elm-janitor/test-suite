@@ -23,11 +23,7 @@ ELM_HOME=`pwd`/elm-home
 set ELM_HOME=%cd%\elm-home
 ```
 
-I use [direnv](https://direnv.net/) and have a `.envrc` file with the following content:
-
-```sh
-export ELM_HOME=$HOME/code/elm/janitor/verify-patches/elm-home
-```
+If you use [direnv](https://direnv.net/), you can run `direnv allow` to set it to `./elm-home`.
 
 Then you can either
 
