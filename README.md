@@ -60,7 +60,7 @@ After that, you can proceed to run the test suites.
 
 ### Regression tests
 Applying the changes of elm-janitor should not introduce regressions.\
-Not all core packages have tests, for those we could create a suite, see #1.
+Not all core packages have tests, for those we could [create a suite (TODO)](https://github.com/elm-janitor/test-suite/issues/1).
 
 But we can run these tests
 
