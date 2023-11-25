@@ -1,6 +1,8 @@
 # README
 
-This repository is useful to develop and verify fixes to core Elm packages.
+This repository contains a test suite for patches that the [elm-janitor](https://github.com/elm-janitor) packages stack on top of the official Elm core packages.
+
+It is also useful to develop or evaluate patches to core Elm packages and their kernel code.
 
 Every forked core package from elm-janitor is a git submodule, so best clone
 this repository with `--recurse-submodules`.
