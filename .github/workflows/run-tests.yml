@@ -156,7 +156,7 @@ jobs:
         working-directory: js-tests
         run: npx elm make src/FilePr17.elm --output=/dev/null
 
-      - run: npx jest
+      - run: npx jest --runInBand
         working-directory: js-tests
 
   browser-tests:
